@@ -19,7 +19,7 @@ export default function Form(props){
     <form className="form container" onSubmit={onSubmit}>
         <div className="form-group submit">
             <h2>Add a List</h2>
-            <button disabled={disabled}>submit</button>
+            <button id="submitBtn" disabled={disabled}>submit</button>
             {/* //ERRORS */}
             <div className="errors">
             {/* 🔥 RENDER THE VALIDATION ERRORS HERE */}

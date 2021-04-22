@@ -41,7 +41,7 @@ const initialFormErrors = {
   Terms_of_Service:false,
 };
 
-const initialList = [];
+// const initialList = [];
 const initialDisabled = true;
 
 
