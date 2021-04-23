@@ -25,7 +25,7 @@ describe("User-Boarding app", ()=>{
             .type("Sridevi")
              .should("have.value", "Sridevi")
               //.should("match", /sridevi/i)
-           //cy.contains(/sridevi/)//case doesn't matter
+           //.contains(/sridevi/)//case doesn't matter
     })
  
     //email
